@@ -44,7 +44,7 @@ class Saxon extends Soldier {
     if (this.health === 0){
       return "A Saxon has died in combat"
     } else {
-      return "A Saxon has received" + damage + "points of damage."
+      return `A Saxon has received ${damage} points of damage.`
     }
   }
 
